@@ -34,6 +34,5 @@ const userSchema = Schema({
 })
 
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost:27017/containers-moon-db')
 
 module.exports = mongoose.model('user', userSchema)
