@@ -12,7 +12,7 @@ module.exports = async (req, res, next) => {
         req.user = user
         return next()
     } catch (err) {
-        return res.status(401).json({ message: 'you are not authenticated' })
+        return res.status(500).json({ message: 'something went wrong' })
     }
 
 }
