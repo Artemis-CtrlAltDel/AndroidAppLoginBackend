@@ -1,1 +1,1 @@
-NodeJS backend for sign-up/login/logout/entity-crud operations in an Android Application I have created 
+Simple NodeJS backend for auth/crud operations in an android app I have created
